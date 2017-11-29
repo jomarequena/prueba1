@@ -1,0 +1,9 @@
+http://10.31.2.48/api/v1.0/account/users/?format=json
+
+
+C:\Users\0013067\Desktop\curl-7.52.1\src>curl.exe -X GET -H "Content-Type: application/json" http://10.31.2.48/api/v1.0/account/users/ -u root:root 
+
+
+-d "{'bsdusr_uid': '1100','bsdusr_username': 'myuser','bsdusr_mode': '755','bsdusr_creategroup': 'True','bsdusr_password': '12345','bsdusr_shell': '/usr/local/bin/bash','bsdusr_full_name': 'Full Name','bsdusr_email': 'name@provider.com'}"
+
+-d "{'bsdusr_uid': '1100','bsdusr_username': 'myuser','bsdusr_mode': '755','bsdusr_creategroup': 'True','bsdusr_password': '12345','bsdusr_shell': "/usr/local/bin/bash",'bsdusr_full_name': "Full Name","bsdusr_email": "name@provider.com"}"
